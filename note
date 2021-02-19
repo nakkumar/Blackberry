@@ -1,0 +1,11 @@
+blackberry connection for windows 10
+************************************
+
+https://docs.microsoft.com/en-US/windows-server/storage/file-server/troubleshoot/smbv1-not-installed-by-default-in-windows
+
+https://docs.microsoft.com/en-US/windows-server/storage/file-server/troubleshoot/detect-enable-and-disable-smbv1-v2-v3
+
+
+
+Get-WindowsOptionalFeature -Online -FeatureName smb1protocol
+Enable-WindowsOptionalFeature -Online -FeatureName smb1protocol

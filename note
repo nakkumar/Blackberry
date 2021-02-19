@@ -9,3 +9,6 @@ https://docs.microsoft.com/en-US/windows-server/storage/file-server/troubleshoot
 
 Get-WindowsOptionalFeature -Online -FeatureName smb1protocol
 Enable-WindowsOptionalFeature -Online -FeatureName smb1protocol
+
+username = blackberry
+passwd = you set the disk allow passwd in blackberry
